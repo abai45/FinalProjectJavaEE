@@ -1,0 +1,81 @@
+body {
+    margin: 0 auto;
+    width: 100%;
+    font-family: Arial,sans-serif;
+}
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.welcome, .productCards {
+    margin-bottom: 20px;
+}
+
+.news {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.newsCard {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.newsTitle {
+    background-color: #dadada;
+    padding: 10px 40px;
+    font-size: 26px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.newsContent {
+    padding: 10px 40px;
+    font-size: 18px;
+}
+
+.newsInfo {
+    margin-bottom: 15px;
+    background-color: #f8f8f8;
+    display: flex;
+    padding: 5px 40px;
+    justify-content: space-between;
+}
+
+.newsPostDate, .newsCategory {
+    margin-bottom: 5px;
+}
+
+.newsPostDate, .newsCategory{
+    font-style: italic;
+}
+.newsLink {
+    padding: 0 40px;
+    padding-bottom: 30px;
+}
+.newsLink a.blogLink {
+    text-decoration: none;
+    color: #fff;
+    background-color: #802b2b;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.newsLink a.blogLink:hover {
+    background-color: #a53b3b;
+}
